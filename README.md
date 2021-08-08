@@ -5,3 +5,4 @@
 - `venv.sh` - personal setup venv for Python projects
 - `shell.sh` - chmod
 - `everyday.sh` - update your packages (Pacman, pip, flatpak, snap)
+- `runwhen.py` - utility, which show you computer work time in pretty print (this script I found in the internet, I only format file to PEP8)
