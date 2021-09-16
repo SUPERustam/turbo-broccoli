@@ -1,11 +1,11 @@
 #!/bin/bash
 
-gstatus=`git status --porcelain`
+rm InfoGallery/*
+git add --all
 
-if [ ${#gstatus} -ne 0 ]
-then
-    git add --all
-    git commit -m "Automated sync by sync.sh:"
-    git pull origin master --rebase
-    git push origin master
-fi
+read -p 'Version: ' version
+read -p 'Message: ' message
+git commit -m "v$version automated sync: $message"
+
+git pull origin master --rebase
+git push origin master
