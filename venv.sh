@@ -5,6 +5,6 @@ python -m venv .env
 source .env/bin/activate
 pip install --upgrade pip pylint autoflake isort 
 # for my config in Neovim
-pip install --upgrade pip setuptools pyright autopep8 pynvim 
+pip install --upgrade pip setuptools pyright autopep8 pynvim debugpy
 sudo npm install -g neovim 
 pip install -r requirements.txt
