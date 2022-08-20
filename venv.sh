@@ -11,3 +11,6 @@ pip install --upgrade pip pylint autoflake isort
 pip install --upgrade pip setuptools pyright autopep8 pynvim debugpy neovim
 sudo npm install -g neovim 
 pip install -r requirements.txt
+
+# for vimspector
+cp /home/superustam/turbo-broccoli/.vimspector.json .vimspector.json
