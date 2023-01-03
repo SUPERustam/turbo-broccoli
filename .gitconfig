@@ -1,0 +1,8 @@
+[http]
+	postBuffer = 5000000000
+	version = HTTP/1.1
+[user]
+	email = 
+	name = 
+[core]
+	editor = nvim
