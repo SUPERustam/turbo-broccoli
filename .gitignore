@@ -138,4 +138,33 @@ dmypy.json
 cython_debug/
 
 # databases
-100M_collection_of_data_from_instagram&facebook.db
+
+# General macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Decorators files
+.localized
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
