@@ -1,8 +1,6 @@
 # git
-git config --global http.postBuffer 5000000000
-git config --global http.version HTTP/1.1
-git config --global core.editor nvim
 cp ~/turbo-broccoli/.gitignore .gitignore
+cp ~/turbo-broccoli/.gitconfig ~/.gitconfig
 
 chmod +x sync.sh venv.sh ols.sh
 
