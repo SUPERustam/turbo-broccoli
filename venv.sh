@@ -2,7 +2,6 @@
 
 # git
 cp ~/turbo-broccoli/.gitignore .gitignore
-cp ~/turbo-broccoli/.gitconfig ~/.gitconfig
 
 chmod +x sync.sh venv.sh ols.sh
 
