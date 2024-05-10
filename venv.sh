@@ -5,12 +5,11 @@ cp ~/turbo-broccoli/.gitignore .gitignore
 
 chmod +x sync.sh venv.sh ols.sh
 
-python3 -m venv .env
+/opt/homebrew/bin/python3 -m venv .env
 source .env/bin/activate
-pip3 install --upgrade pip pylint autoflake isort 
 
 # for my config in Neovim
-pip3 install --upgrade pip setuptools pyright autopep8 pynvim debugpy neovim
+pip3 install --upgrade pip setuptools ruff-lsp pynvim debugpy neovim
 sudo npm install -g neovim 
 pip3 install -r requirements.txt
 
