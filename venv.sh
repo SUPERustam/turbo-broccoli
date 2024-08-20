@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 # git
 cp ~/turbo-broccoli/.gitignore .gitignore
@@ -9,9 +9,12 @@ chmod +x sync.sh venv.sh ols.sh
 source .env/bin/activate
 
 # for my config in Neovim
-pip3 install --upgrade pip setuptools ruff-lsp pynvim debugpy neovim
+uv pip install --upgrade pip setuptools ruff-lsp pynvim debugpy neovim
 sudo npm install -g neovim 
-pip3 install -r requirements.txt
+uv pip install -r requirements.txt
+
+# for Data Science
+uv pip install ipykernel scikit-learn torch torchvision torchaudio numpy pandas 
 
 # for vimspector
 cp ~/turbo-broccoli/.vimspector.json .vimspector.json
