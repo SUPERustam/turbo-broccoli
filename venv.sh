@@ -12,7 +12,7 @@ source .env/bin/activate
 # for my config in Neovim, Data Science
 uv pip install --upgrade \
   pip setuptools ruff-lsp pynvim debugpy neovim \
-  ipykernel scikit-learn torch torchvision torchaudio numpy pandas
+  ipykernel scikit-learn torch torchvision torchaudio numpy pandas seaborn
 
 sudo npm install -g neovim 
 uv pip install -Ur requirements.txt
